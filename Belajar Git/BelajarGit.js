@@ -16,3 +16,6 @@ console.log('Belajar Git');
 
 const add = (a, b) => a + b;
 console.log(add(1, 4));
+
+const multiply = (a, b) => a * b;
+console.log(multiply(2, 3));
