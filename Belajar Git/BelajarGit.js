@@ -18,7 +18,7 @@ console.log('Belajar Git');
 // 9. cd .. -> kembali ke bagian sebelumnya
 // 10. rm -rf NamaFolder -> Menghapus folder
 // 11. git clone "link clone code" -> Meng clone Repository
-
+// 12. dll
 const add = (a, b) => a + b;
 console.log(add(1, 4));
 
