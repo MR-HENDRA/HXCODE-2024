@@ -11,9 +11,9 @@ console.log('Belajar Git');
 // Setelah itu kita dapat membuat fiturnya namun kita bekerja secara sendiri atau tidak terhubung ke Master
 // 7B. Setelah fitur tesebut jadi, kita pun melakukan proses commit seperti biasanya.
 // 7C. Jika kita merasa fitur tersebut sudah bagus dan kita ingin menggabungkannya ke Master,
-// Kita dapat kembali dlu ke Master menggunakan: git checkout master. Nah disini, fitur yang kita buat tidak akan muncul.
-// 7D. Untuk memunculkannya, kita dapat menggunakan: git merge feature/penjumlahan
-// 8A. Merevisi Commit tertentu tanpa mengganggu commit terakhir: git revert kodeCommit,
+// git checkout master -> Kita dapat kembali dlu ke Master. Nah disini, fitur yang kita buat tidak akan muncul.
+// 7D. git merge feature/penjumlahan -> Untuk memunculkannya/menggabungkan ke Master.
+// 8A. git revert kodeCommit -> Merevisi Commit tertentu tanpa mengganggu commit terakhir.
 // 8B. Setelah merubah codenya, kita kembali commit ulang seperti biasa.
 
 const add = (a, b) => a + b;
