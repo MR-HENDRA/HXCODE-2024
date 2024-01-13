@@ -36,4 +36,7 @@ console.log(divide02(4, 3));
 const subtract = (a, b) => a - b;
 console.log(subtract(5, 6));
 
+const mathSin = (number) => Math.sin(number);
+console.log(mathSin(10));
+
 console.log('LAST UPDATE');
