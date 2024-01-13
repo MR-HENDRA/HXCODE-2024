@@ -15,6 +15,9 @@ console.log('Belajar Git');
 // 7D. git merge feature/penjumlahan -> Untuk memunculkannya/menggabungkan ke Master.
 // 8A. git revert kodeCommit -> Merevisi Commit tertentu tanpa mengganggu commit terakhir.
 // 8B. Setelah merubah codenya, kita kembali commit ulang seperti biasa.
+// 9. cd .. -> kembali ke bagian sebelumnya
+// 10. rm -rf NamaFolder -> Menghapus folder
+// 11. git clone "link clone code" -> Meng clone Repository
 
 const add = (a, b) => a + b;
 console.log(add(1, 4));
