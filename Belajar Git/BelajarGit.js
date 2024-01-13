@@ -16,9 +16,11 @@ console.log('Belajar Git');
 // 8A. git revert kodeCommit -> Merevisi Commit tertentu tanpa mengganggu commit terakhir.
 // 8B. Setelah merubah codenya, kita kembali commit ulang seperti biasa.
 // 9. cd .. -> kembali ke bagian sebelumnya
-// 10. rm -rf NamaFolder -> Menghapus folder
-// 11. git clone "link clone code" -> Meng clone Repository
-// 12. dll
+// 10. MEMBUAT REPOSITORY
+// 10. git status -> git add . -> git status -> git commit -m "keteranganCommit" -> git remote add origin https://github.com/MR-HENDRA/HXCODE-2024.git -> git push -u origin master
+// 11. rm -rf NamaFolder -> Menghapus folder
+// 12. git clone "link clone code" -> Meng clone Repository
+// 13. git push -> update perubahan pada git lokal ke github
 const add = (a, b) => a + b;
 console.log(add(1, 4));
 
@@ -30,5 +32,8 @@ console.log(divide(4, 3));
 
 const divide02 = (a, b) => a / b;
 console.log(divide02(4, 3));
+
+const subtract = (a, b) => a - b;
+console.log(subtract(5, 6));
 
 console.log('LAST UPDATE');
