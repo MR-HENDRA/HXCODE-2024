@@ -23,7 +23,7 @@ console.log(multiply(2, 3));
 const divide = (a, b) => a / b;
 console.log(divide(4, 3));
 
-const divide2 = (a, b) => a / b;
-console.log(divide2(4, 3));
+const divide02 = (a, b) => a / b;
+console.log(divide02(4, 3));
 
 console.log('LAST UPDATE');
