@@ -6,3 +6,6 @@ console.log('Belajar Git');
 // 4. git restore -> Membatalkan perubahan code / mengembalikan code ke perubahan terakhir pas commit.
 // 5. git restore -S -> Membatalakan perubahan pada file/code yang telah di git add (sudah masuk ke Sketching area)
 // 6. git reset --hard kodehas -> Mengembalikkan ke Commit tertentu
+
+const add = (a, b) => a + b;
+console.log(add(1, 4));
